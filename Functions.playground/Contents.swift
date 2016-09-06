@@ -43,3 +43,9 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+func nameBadge(name:String) -> String {
+    return "My Name is \n \(name)"
+}
+let badge1 = nameBadge("Pete")
+print(badge1)
